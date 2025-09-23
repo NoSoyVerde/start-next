@@ -7,6 +7,7 @@ export default async function PaginaProducto(
         params:Promise<{idproducto:string}>}
 ) {
     // Codigo para cargar idproducto de una base de datos
+    const producto = await
   return (
     <div id="paginaproducto">
       <h1>Esta es la pagina de productos</h1>
